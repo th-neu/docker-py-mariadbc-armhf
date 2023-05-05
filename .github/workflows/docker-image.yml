@@ -9,7 +9,7 @@ permissions:
 jobs:
   docker:
     name: Build and push Docker image
-    runs-on: debian-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
